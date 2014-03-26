@@ -6,7 +6,7 @@
     <AppIdentifier>com.telerik.airlinessampleapp</AppIdentifier>
     <ProjectName>airlines sample app</ProjectName>
     <IsRunnable>true</IsRunnable>
-    <AndroidPermissions>android.permission.CAMERA;android.permission.VIBRATE;android.permission.ACCESS_COARSE_LOCATION;android.permission.ACCESS_FINE_LOCATION;android.permission.ACCESS_LOCATION_EXTRA_COMMANDS;android.permission.READ_PHONE_STATE;android.permission.INTERNET;android.permission.RECEIVE_SMS;android.permission.RECORD_AUDIO;android.permission.MODIFY_AUDIO_SETTINGS;android.permission.READ_CONTACTS;android.permission.WRITE_CONTACTS;android.permission.WRITE_EXTERNAL_STORAGE;android.permission.ACCESS_NETWORK_STATE</AndroidPermissions>
+    <AndroidPermissions>android.permission.ACCESS_COARSE_LOCATION;android.permission.ACCESS_FINE_LOCATION;android.permission.ACCESS_LOCATION_EXTRA_COMMANDS;android.permission.ACCESS_NETWORK_STATE;android.permission.CAMERA;android.permission.INTERNET;android.permission.MODIFY_AUDIO_SETTINGS;android.permission.READ_CONTACTS;android.permission.READ_PHONE_STATE;android.permission.RECEIVE_SMS;android.permission.RECORD_AUDIO;android.permission.VIBRATE;android.permission.WRITE_CONTACTS;android.permission.WRITE_EXTERNAL_STORAGE</AndroidPermissions>
     <DeviceOrientations>Portrait</DeviceOrientations>
     <iOSStatusBarStyle>Default</iOSStatusBarStyle>
     <BundleVersion>1.0</BundleVersion>
@@ -16,7 +16,17 @@
     <iOSDeviceFamily>1;2</iOSDeviceFamily>
     <iOSBackgroundMode />
     <FrameworkVersion>3.2.0</FrameworkVersion>
-    <CorePlugins>org.apache.cordova.splashscreen;org.apache.cordova.statusbar</CorePlugins>
+    <CorePlugins>org.apache.cordova.splashscreen;com.phonegap.plugins.sqlite;org.apache.cordova.statusbar</CorePlugins>
+    <DisplayName />
+    <Author />
+    <Description>airlines sample app</Description>
+    <WP8Requirements />
+    <WP8Capabilities />
+    <WP8TileTitle />
+    <WP8ProductID>{163ec050-1adf-4897-b5bf-e6b896dafa1b}</WP8ProductID>
+    <WP8PublisherID>{d9ad85a3-a1d6-4e38-a718-d4ebc6bafe51}</WP8PublisherID>
+    <WP8Publisher />
+    <WP8SupportedResolutions />
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
 </Project>
